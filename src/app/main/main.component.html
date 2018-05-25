@@ -1,0 +1,21 @@
+<div class="main">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <span>{{'Popular E-books'|uppercase}}</span>
+      </div>
+      <div class="col-md-6 text-right">
+        <input type="search" placeholder="Search..." [(ngModel)]='keyword'>
+        <button type="button" (click)='changeOption()' class="glyphicon glyphicon-th"></button>
+        <button type="button" class="glyphicon glyphicon-align-justify"></button>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="books">
+        <div class="col-md-12">
+          <app-book *ngFor="let book of books | filter:keyword" [book]="book"></app-book>
+        </div>
+      </div>    
+    </div>
+  </div>
+</div>

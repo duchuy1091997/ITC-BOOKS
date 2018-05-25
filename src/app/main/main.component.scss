@@ -1,0 +1,56 @@
+.main{
+    padding-top: 100px;
+    span{
+        font-size: 35px;
+        color: #adadad;
+    }
+    button.glyphicon.glyphicon-th{
+        width: 65px;
+        height: 30px;
+        font-size: 17px;
+        color: #5d5d5d;
+        background-color: white;
+        border: 1px solid;
+        border-color: gainsboro;
+        box-shadow: 1px 2px 2.5px;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    button.glyphicon.glyphicon-align-justify{
+        width: 65px;
+        height: 30px;
+        font-size: 17px;
+        color: #5d5d5d;
+        background-color: white;
+        border: 1px solid;
+        border-color: gainsboro;
+        box-shadow: 1px 2px 2.5px;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+}
+.books{
+    padding-top: 50px;
+}
+input[type=search] {
+    width: 20px;
+    height: 35px;
+    margin-right: 15px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    background: url(/assets/search.png) no-repeat 10px 8px;
+    background-size: 16px;
+    padding: 0 5px 0 30px;
+    color:#adadad;
+    border-radius: 100px;
+    border: 1px solid;
+    box-shadow: 1px 2px 2.5px;
+    cursor:pointer;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=search]:focus {
+    width: 40%;
+    outline: none;
+}
+     

@@ -1,0 +1,42 @@
+.banner{
+    background: linear-gradient(to right,#bcee9e,#33f5e3);
+    width: 95%;
+    float: right;
+    margin-bottom: 80px;
+}
+.book-banner{
+    img{
+        margin-left: -11%;
+        width: 100%;
+        padding-top: 65px;
+        padding-bottom: 65px
+    }
+    
+}
+.slogan{
+    padding-top: 30%;
+    padding-left: 10%;
+    h1{
+        font-size: 90px;
+        font-weight: bold;
+    }
+    .btn-primary{
+        border-radius: 30px;
+        width: 175px;
+        padding: 10px;
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: 21px;
+        background-color: black;
+        border: unset;
+    }
+    .btn-primary:hover{
+        background-color: white;
+        color: black;
+    }
+    .btn-primary:focus{
+        outline: none;
+    }
+    
+    
+}
